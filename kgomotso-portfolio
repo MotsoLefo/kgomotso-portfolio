@@ -1,0 +1,141 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kgomotso Malefo | Portfolio</title>
+  <style>
+    :root {
+      --primary-color: #6ab7ff;
+      --background-color: #121212;
+      --header-background: #1e1e1e;
+      --text-color: #e0e0e0;
+      --accent-color: #00c6ff;
+    }
+    * {
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: var(--background-color);
+      color: var(--text-color);
+      line-height: 1.6;
+    }
+    header {
+      background: var(--header-background);
+      padding: 2rem;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    }
+    header h1 {
+      margin: 0;
+      color: #ffffff;
+      font-size: 2.5rem;
+    }
+    header p {
+      color: #cccccc;
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: var(--primary-color);
+      border-bottom: 2px solid var(--primary-color);
+      padding-bottom: 0.5rem;
+      margin-top: 2rem;
+      font-size: 1.8rem;
+    }
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    ul li {
+      background: #1e1e1e;
+      margin: 0.5rem 0;
+      padding: 0.75rem 1rem;
+      border-left: 4px solid var(--primary-color);
+      border-radius: 4px;
+    }
+    .contact p {
+      margin: 0.5rem 0;
+    }
+    footer {
+      background: var(--header-background);
+      color: #888;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      margin-top: 3rem;
+    }
+    a {
+      color: var(--accent-color);
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Kgomotso Patronella Malefo</h1>
+    <p>Technical Support Engineer | Fullstack Developer</p>
+  </header>
+
+  <section class="about">
+    <h2>About Me</h2>
+    <p>I am a highly motivated and progress-focused Technical Support Engineer with a long-standing background in this industry. With a track record of initiative and dependability, I have devised strategic initiatives which I believe will prove valuable and learn more.</p>
+    <p>Throughout the course of my career, I have perfected my complaint resolution and application support abilities. I am a capable and consistent problem-solver skilled at prioritizing and managing projects with proficiency.</p>
+    <p>In my previous role, I contributed communication, customer service, and network support toward team efforts and business improvements. I am progressive minded and in tune with new developments in my field. I have proven to be effective and collaborative with strong critical thinking talents.</p>
+  </section>
+
+  <section class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Complaint Resolution</li>
+      <li>Application Support</li>
+      <li>Communication</li>
+      <li>Customer Service</li>
+      <li>Network Support</li>
+      <li>Problem-solving</li>
+      <li>Critical Thinking</li>
+      <li>Teamwork & Collaboration</li>
+    </ul>
+  </section>
+
+  <section class="certifications">
+    <h2>Certifications</h2>
+    <ul>
+      <li>Certificate in Fullstack Development (20 July 2025)</li>
+      <li>End User Computing</li>
+      <li>CompTIA A+</li>
+      <li>CompTIA N+</li>
+      <li>CompTIA Security+</li>
+      <li>MCP, MCSA, MCSE</li>
+      <li>Cisco CCNA</li>
+      <li>Introduction to Cybersecurity</li>
+    </ul>
+  </section>
+
+  <section class="projects">
+    <h2>Projects</h2>
+    <p>Projects coming soon. Stay tuned!</p>
+  </section>
+
+  <section class="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:malefoadellaide@gmail.com">malefoadellaide@gmail.com</a></p>
+    <p>Phone: 0620579899 / 0683553763</p>
+    <p>Location: Rustenburg, North West</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Kgomotso Malefo. All rights reserved.</p>
+  </footer>
+</body>
+</html>
